@@ -1,0 +1,21 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.users-index {
+  padding-top: 20px;
+  
+  .card {
+    text-align: center;
+    padding-top: 20px;
+
+    &.card-male {
+      background-color: lightblue;
+    }
+    
+    &.card-female {
+      background-color: lightpink;
+    }
+  }
+}
+
